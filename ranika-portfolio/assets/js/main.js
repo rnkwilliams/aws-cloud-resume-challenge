@@ -293,7 +293,7 @@
   const counter = document.querySelector(".views-counter");
   async function updateViewsCounter() {
     let res = await fetch(
-      "https://dwr7wvsxisifgqhvyq5qvcgmdu0svufq.lambda-url.us-east-1.on.aws/"
+      "https://yl6ejqfirwkzfnk7tdwhisc2fa0dmndm.lambda-url.us-east-1.on.aws/"
     );
     let data = await res.json();
     counter.innerHTML = ` Views: ${data}`;
