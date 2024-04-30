@@ -2,7 +2,7 @@
 
 # Cloud Resume Challenge Project Frontend
 
-This project is a serverless full-stack web application built for the [Cloud Resume Challenge](https://cloudresumechallenge.dev/). It consists of a front and back end hosted on AWS services, with infrastructure managed using Terraform. The CI/CD pipeline is implemented using GitHub Actions, and testing conducted using Cypress. 
+This project is a serverless full-stack web application built based on the [Cloud Resume Challenge](https://cloudresumechallenge.dev/). It consists of a front and back end hosted on AWS services, with infrastructure managed using Terraform. The CI/CD pipeline is implemented using GitHub Actions, and testing conducted using Cypress. 
 
 The backend portion of this project can be found in this [repository](https://github.com/rnkwilliams/aws-cloud-resume-challenge-backend). The deployed web app can be found [here](https://www.ranikaresume.com/).
 
