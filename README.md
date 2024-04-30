@@ -1,19 +1,19 @@
 ---
 
-# Cloud Resume Challenge Project
+# Cloud Resume Challenge Project Frontend
 
-This project is a serverless full-stack web application built for the [Cloud Resume Challenge](https://cloudresumechallenge.dev/). It consists of a front end and a back end hosted on AWS services, with infrastructure managed using Terraform. The CI/CD pipeline is implemented using GitHub Actions, and testing conducted using Cypress. 
+This project is a serverless full-stack web application built for the [Cloud Resume Challenge](https://cloudresumechallenge.dev/). It consists of a front and back end hosted on AWS services, with infrastructure managed using Terraform. The CI/CD pipeline is implemented using GitHub Actions, and testing conducted using Cypress. 
 
 The backend portion of this project can be found in this [repository](https://github.com/rnkwilliams/aws-cloud-resume-challenge-backend). The deployed web app can be found [here](https://www.ranikaresume.com/).
 
 ## Architectural Diagram
 This diagram explains the structure of the full-stack project:
 
-![Alt text]([CloudResumeDiagram.png])
+![Alt text](ranika-portfolio/CloudResumeDiagram.png)
 
-## Front End
+## Frontend
 
-The application's frontend is hosted on AWS S3 (Simple Storage Service) to store HTML, CSS, JavaScript files and served globally via CloudFront for fast content delivery to users. Route 53 is used for DNS management and to point internet traffic to a CloudFront distribution. Amazon Certificate Manager is used for SSL/TLS certificate management and handling the TLS connection established between the client, providing a secure HTTPS connection.
+The application's frontend is hosted on AWS S3 (Simple Storage Service) to store HTML, CSS, and JavaScript files and is served globally via CloudFront for fast content delivery to users. Route 53 is used for DNS management and to point internet traffic to a CloudFront distribution. Amazon Certificate Manager is used for SSL/TLS certificate management and handling the TLS connection established between the client, providing a secure HTTPS connection.
 
 ## Continuous Integration/Continuous Deployment (CI/CD)
 
